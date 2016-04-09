@@ -1,0 +1,113 @@
+.container-fluid{
+	font-family: Verdana;
+	background: #f1f1f1;
+}
+span{
+	
+}
+.logo{
+	height: 40px;
+}
+.menu{
+	
+}
+.menu {
+	float: right;
+	width: 100%;
+	height: auto;
+}
+.menu ul {
+	padding: 0;
+	float:right;
+	height: auto;
+}
+.menu li {
+	padding:0 25px;
+	height: 23px;
+	text-align: center;
+	list-style: none;
+}
+.menu li:hover {
+	background: #d4d4d4;
+}
+li a {
+	text-decoration: none;
+}
+.banner{
+	background-image: url(../img/intro-bg.jpg);
+	height: 780px;
+	background-position: center;
+	background-size: cover;
+	padding-top: 250px;
+	text-align: center;
+	color: #fff;
+}
+.banner button{
+	text-align:center;
+	color:#444 ;
+	width: 115px;
+	height: 40px;
+	margin-left:10px;
+}
+.banner h1 .banner2 h1{
+	font-size: 45px;
+}
+
+.noticia1{
+	padding-top: 20px;
+}
+.noticia2{
+	padding-top: 20px;
+	height: 400px;
+}
+.noticia2 img{
+	float: right;
+}
+.white{
+	background: #fff;
+}
+.banner2{
+	background-image: url(../img/banner-bg.jpg);
+	height: 280px;
+	background-position: center;
+	background-size: cover;
+	padding-top: 100px;
+	color: #fff;
+}
+.banner2 button{
+	text-align:center;
+	color:#444 ;
+	width: 115px;
+	height: 40px;
+	margin-left:10px; 
+	float: right;
+}
+.button{
+	padding: 25px;
+}
+.footer .menu ul{
+	float: left;
+}
+.footer .menu li{
+	padding:0 25px 0 0;
+	text-align: left;
+}
+.footer{
+	height: 100px;
+}
+@media (min-width: 768px) {
+	.hideNoticia{
+		display:none;
+	}
+	.menu li{
+		float:left;
+	}
+}
+@media (min-width: 992px) {
+	
+}
+@media (min-width: 1200px) {
+	.hideNoticia{
+		display: inherit;
+	}
+}
